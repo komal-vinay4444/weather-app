@@ -1,0 +1,114 @@
+/* From Uiverse.io by laminelawal */ 
+.input {
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 1px  gray;
+  font-size: 18px;
+  transition: width 0.3s;
+  font-family: Consolas,monaco,monospace;
+  border: solid 1px blue;
+  padding: 10px;
+}
+
+.input:focus {
+  outline: 1px solid blue;
+  box-shadow: none;
+  width: 230px;
+}
+
+.input::placeholder {
+  color: blue;
+}
+        body {
+        font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.728);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  
+  input, button {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 16px;
+  }
+  
+ /* From Uiverse.io by cssbuttons-io */ 
+button {
+  padding: 6%;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+  #weatherResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .sunny {
+    background-color: #fbc02d;
+    background-image: url('https://media2.giphy.com/media/6dVav0AfQ0KRUQLxpb/giphy.gif?cid=6c09b952jhj0r7qr99693qqj4vya99hr5qvcjf4h8rq8k5gy&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .cloudy {
+    background-color: #90a4ae;
+    background-image: url('https://i.pinimg.com/originals/fc/f9/8c/fcf98ccc44abe2370e68e1892b562275.gif'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rainy {
+    background-color: #42a5f5;
+    background-image: url('https://i.pinimg.com/originals/f0/d4/a2/f0d4a21ae4c9d283d3b24fe7e2dfe1d0.gif'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .snowy {
+    background-color: #b3e5fc;
+    background-image: url('https://i.pinimg.com/originals/29/30/ff/2930ff9c3b906aac6e27a2d22dc2f58d.gif'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+  }
